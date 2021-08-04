@@ -1,0 +1,9 @@
+gtkmm has various widgets which can be visually adjusted using mouse and keyboard such as the range widgets.
+
+These widgets have Gtk::Adjustments API that express this common part of the API
+
+So that the applications can react to the changes for instance when the user moves scrollbar , Gtk::Adjustments has a value changed signal. we can use get_value() to get the value from that
+
+Creating an Adjustment
+
+
