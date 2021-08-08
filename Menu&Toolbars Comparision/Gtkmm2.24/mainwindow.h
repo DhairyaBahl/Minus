@@ -115,7 +115,7 @@ MainWindow::MainWindow()
         "  </toolbar>"
         "</ui>";
 
-        try
+  try
   {
     m_refUIManager->add_ui_from_string(ui_info);
   }
