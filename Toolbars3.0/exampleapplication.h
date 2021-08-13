@@ -1,4 +1,6 @@
 #include <gtkmm-3.0/gtkmm.h>
+#include "examplewindow.h"
+#include <iostream>
 
 class ExampleApplication : public Gtk::Application
 {
@@ -23,9 +25,6 @@ private:
 
   Glib::RefPtr<Gtk::Builder> m_refBuilder;
 };
-
-#include "examplewindow.h"
-#include <iostream>
 
 ExampleApplication::ExampleApplication()
 : Gtk::Application("org.gtkmm.example.main_menu")
